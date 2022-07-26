@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="./src/icon.png">
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
+  <body>
+    <div class="calculator">
+      <div class="input-row">
+        <form>
+          <label>
+            <input type="text" class="calculator__result" placeholder="0" />
+          </label>
+        </form>
+      </div>
+      <div class="first-row">
+        <div class="first-row--buttons">
+          <button class="calculator__button calculator__button--7" value="7">7</button>
+          <button class="calculator__button calculator__button--8" value="8">8</button>
+          <button class="calculator__button calculator__button--9" value="9">9</button>
+          <button class="calculator__button calculator__button--divide" value="/">/</button>
+        </div>
+      </div>
+      <div class="second-row">
+        <div class="second-row--buttons">
+          <button class="calculator__button calculator__button--4" value="4">4</button>
+          <button class="calculator__button calculator__button--5" value="5">5</button>
+          <button class="calculator__button calculator__button--6" value="6">6</button>
+          <button class="calculator__button calculator__button--multiply" value="*">x</button>
+        </div>
+      </div>
+      <div class="third-row">
+        <div class="third-row--buttons">
+          <button class="calculator__button calculator__button--1" value="1">1</button>
+          <button class="calculator__button calculator__button--2" value="2">2</button>
+          <button class="calculator__button calculator__button--3" value="3">3</button>
+          <button class="calculator__button calculator__button--minus" value="-">-</button>
+        </div>
+      </div>
+      <div class="fourth-row">
+        <div class="fourth-row--buttons">
+          <button class="calculator__button calculator__button--0" value="0">0</button>
+          <button class="calculator__button calculator__button--dot" value=".">.</button>
+          <button class="calculator__button calculator__button--equals" value="=">=</button>
+          <button class="calculator__button calculator__button--plus" value="+">+</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/oop/index.mjs"></script>
+  </body>
+
+</html>
